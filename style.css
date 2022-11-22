@@ -1,0 +1,156 @@
+
+
+html,
+body {
+    height: 100%;
+}
+
+.greetings,
+p,
+h1,
+h2 {
+    font-family: monospace;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    max-width: 95%;
+    padding: 10px;
+    width: 100%;
+    background-color: #d4aff0;
+}
+
+.logo img {
+    width: 100px;
+    height: 100px;
+    margin-left: 15px;
+    margin-top: 5px;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 10%;
+    margin-bottom: 1em;
+    background-color: hsl(209, 77%, 55%);
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+}
+
+ul li {
+    margin-right: 40px;
+}
+
+li a {
+    text-decoration: none;
+    font-family: 'Playfair Display SC', serif;
+    font-size: 1.4rem;
+    color: rgb(52, 7, 59);
+    font-weight: 1000;
+}
+
+.about_me {
+    display: flex;
+    flex-direction: column;
+    flex: 1 0 auto;
+}
+
+.data {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+.myInfo {
+    display: flex;
+    flex-direction: column;
+    margin-right: 15px;
+    margin-left: 15px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    background-color:  hsl(249, 81%, 67%);;
+}
+
+.article {
+    width: 40%;
+    margin-left: 6rem;
+
+}
+
+.text {
+    font-size: 1.5rem;
+    color: rgb(52, 7, 59);
+    font-family: 'Playfair Display SC', serif;
+    font-weight: 700;  
+}
+
+.myPhoto {
+    padding-left: 10px; 
+    padding-top: 10px;
+}
+
+.myPhoto img {
+    width: 250px;
+    height: 250px;
+}
+
+.knowledge {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: hsl(249, 81%, 67%);
+    font-weight: 700;
+}
+
+.code {
+    background-color: #be89e7;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    background-color: hsl(209, 77%, 55%);
+    flex: 0 0 auto;
+}
+
+
+p {
+    font-size: 1.3rem;
+    font-family: 'Merriweather', serif;
+    color: #000000;
+    padding-left: 5px;
+    margin-top: 0.3em;
+    margin-bottom: 0.3em;
+
+}
+
+h2 {
+    text-align: center;
+    color: #1f0157;
+    font-family: 'Playfair Display SC', serif;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+h1 {
+    color: #1f0157;
+    text-align: center;
+    font-size: 3rem;
+    font-family: 'Great Vibes', cursive;
+}
